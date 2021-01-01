@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "src"
+version = "1.0.0"
+description = "gokart"
+authors = ["vaaaaanquish <6syun9@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+optuna = "*"
+lightgbm = "*"
+gokart_pipeliner = "*"
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
